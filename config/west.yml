@@ -1,13 +1,13 @@
-manifest:
+ manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+      url-base: https://github.com/petejohanson
     - name: badjeff
       url-base: https://github.com/badjeff
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: feat/pointers-with-input-processors
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: badjeff
@@ -19,4 +19,4 @@ manifest:
       remote: badjeff
       revision: main
   self:
-    path: config
+    path: config 
