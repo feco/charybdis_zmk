@@ -49,13 +49,13 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
   - /
   - RIGHT ALT
-  - LCTRL
-  - L CLK
   - LEFT GUI
+  - SPACE
+  - LCTRL
   - {t: ENTER, h: NUMBERS}
   - LEFT SHIFT
+  - '&mkp MB1'
   - R CLK
-  - SPACE
   - NUMBERS
   NUMBERS:
   - {t: ▽, type: trans}
