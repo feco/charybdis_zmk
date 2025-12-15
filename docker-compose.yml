@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  zmk-build:
+    image: zmkfirmware/zmk-build-arm:stable
+    volumes:
+      - .:/workspace
+      - zmk-cache:/workspace/.west
+    working_dir: /workspace
+    command: /bin/bash
+    stdin_open: true
+    tty: true
+    environment:
+      - ZEPHYR_TOOLCHAIN_VARIANT=zephyr
+
+volumes:
+  zmk-cache:
+    driver: local
