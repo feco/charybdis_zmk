@@ -188,8 +188,8 @@
 &kp TAB         &kp Q   &kp W   &kp E      &kp R      &kp T           &kp Y        &kp U           &kp I         &kp O          &kp P     &kp LBKT
 &kp ESCAPE      &kp A   &kp S   &kp D      &kp F      &kp G           &kp H        &kp J           &kp K         &kp L          &kp SEMI  &kp BACKSPACE
 &mo 2           &kp Z   &kp X   &kp C      &kp V      &kp B           &kp N        &kp M           &kp DE_COMMA  &kp DE_PERIOD  &kp FSLH  &kp RIGHT_ALT
-                                &kp LCTRL  &kp SPACE  &kp LEFT_GUI    &lt 1 ENTER  &kp LEFT_SHIFT
-                                           &mkp RCLK  &mkp LCLK       &mo 1
+                                &kp LCTRL  &mkp LCLK  &kp LEFT_GUI    &lt 1 ENTER  &kp LEFT_SHIFT
+                                           &mkp RCLK  &kp SPACE       &mo 1
             >;
 
             label = "QUERTY";

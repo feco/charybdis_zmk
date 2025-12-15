@@ -50,12 +50,12 @@ layers:
   - /
   - RIGHT ALT
   - LCTRL
-  - SPACE
+  - L CLK
   - LEFT GUI
   - {t: ENTER, h: NUMBERS}
   - LEFT SHIFT
   - R CLK
-  - L CLK
+  - SPACE
   - NUMBERS
   NUMBERS:
   - {t: ▽, type: trans}
