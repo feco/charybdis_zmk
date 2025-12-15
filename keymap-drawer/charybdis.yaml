@@ -50,12 +50,12 @@ layers:
   - /
   - RIGHT ALT
   - LEFT GUI
-  - SPACE
+  - '&mkp MB2'
   - LCTRL
   - {t: ENTER, h: NUMBERS}
   - LEFT SHIFT
   - '&mkp MB1'
-  - R CLK
+  - SPACE
   - NUMBERS
   NUMBERS:
   - {t: ▽, type: trans}
